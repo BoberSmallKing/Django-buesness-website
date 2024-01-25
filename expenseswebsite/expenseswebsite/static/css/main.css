@@ -1,0 +1,74 @@
+.body{
+  background: #ffffff;
+}
+/* aside menu */
+aside {
+  float: left;
+  background: #f8f9fa;
+  width: 16%;
+  padding: 1.5%;
+  padding-top: 20px;
+  height: 100vh;
+  color: #fff;
+  position: fixed;
+  border-left: 35px;
+}
+
+
+aside h3 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+aside ul {list-style: none}
+
+aside ul a{
+  text-decoration: none;
+}
+
+aside ul li {
+  color: #333333;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: normal;
+  display: block;
+  font-size-adjust: 1;
+  margin-top: 18px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: color 0.3s linear;
+}
+
+aside ul li:hover, aside ul a:hover{
+  text-decoration: none;
+  color: #0083fe;
+}
+
+.share_word{
+  color: #333333;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* main */
+
+main .features{
+  float: left;
+  color: #333333;
+  margin-top: 40px;
+  width: 100%;
+  font-size: 19px;
+  padding-left: 350px;
+  padding-right: 30px;
+}
+
+main .features h1 {
+  font-size: 60px;
+}
+
+main .features p {
+  max-width: 800px; 
+  margin: 20px auto;
+}
+
+

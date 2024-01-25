@@ -1,0 +1,13 @@
+.logo_up{
+    display: flex;
+    align-items: center;
+}
+.logo_title{
+    padding-top: 20px;
+    margin-left: 60px;
+    color: white;
+    font-size: 26px;
+}
+.up_menu{
+    background: #494e53;
+}
