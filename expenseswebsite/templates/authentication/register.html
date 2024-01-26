@@ -1,36 +1,25 @@
 {% extends 'base-register.html' %}
 
 {% block content %}
-   <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-    <div class="card mt-5">
-        
-        <div class="card-body"> 
-            <div class="card-titke">
-                <h4>Register</h4>
-            </div>    
-            <form action="" method="post">
-                <div class="form-group">
-                    <input placeholder="username" type="text" name="username" id="usernameField" class="form-control form-control-sm mt-3">
-                </div>
+<form action="" class="form">
 
-                <div class="form-group">
-                    <input placeholder="email" type="email" name="email" id="emailField" class="form-control form-control-sm mt-3">
-                </div>
+    <h1 class="form_title">Register</h1>
 
-                <div class="form-group">
-                    <input placeholder="password" type="password" name="password" id="passwordField" class="form-control form-control-sm mt-3">
-
-                    <small class="float-right p-5 "> SHOW </small>
-                </div>
-
-                <input type="button" value="Register" class="btn btn-primary">
-            </form>
-        </div>
-        </div>
-        </div>
+    <div class="form_group">
+        <input type="text" name="username" id="usernameField" class="form_input" placeholder=" ">
+        <label for="" class="form_label">Username</label>
     </div>
-    <div class="col-md-4"></div>
-   </div>
+    
+    <div class="form_group">
+        <input type="email" name="email" id="emailField" class="form_input" placeholder=" ">
+        <label for="" class="form_label">Email</label>
+    </div>
+
+    <div class="form_group">
+        <input type="password" name="password" id="passwordField" class="form_input" placeholder=" ">
+        <label for="" class="form_label">Password</label>
+    </div>
+
+    <button class="form_button">Register</button>
+</form>
 {% endblock %}
